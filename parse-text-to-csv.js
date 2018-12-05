@@ -113,7 +113,7 @@ for(let i = 1; i < lines.length; i++) {
 }
 
 // Output the data to file
-fs.writeFileSync(`./${process.argv[3] || 'process-sample-output.txt'}`, `${titles.join()}\n${values.join()}`);
+fs.writeFileSync(`./${process.argv[3] || 'process-sample-output.csv'}`, `${titles.join()}\n${values.join()}`);
 
 console.log('Data successfully parsed!')
 console.timeEnd('Time used');
