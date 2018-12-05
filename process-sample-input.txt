@@ -1,0 +1,40 @@
+3+ listall process *, by cpu-busy-time
+Process  1,73      ($Y8PS)    Pri 148        Device Name $SYSTEM
+Program  $SYSTEM.SYS04.SSH (Native)
+Userid   255,255   Creatorid  255,255   Ancestor 1,135 ($X5W4)
+Format Version:  H06  Data Version:  H06  Subsystem Version:  3
+Local System \ABCDEF  From  14 Sep 2012,  0:24:00   For     0 Seconds
+------------ Processor -----------------------------------------------------
+Cpu-Busy-Time               97.22 %    Dispatches              1,666,666 /s
+Ready-Time                 641.67 %    Comp-Traps                250,000 /s
+Launch-Wait-Time                       Launches
+Vsems                                  Ipu-Switches
+Ipu-Num                         2 #
+------------ Memory Management ---------------------------------------------
+Mem-Qtime                  21,205 %    Page-Faults             2,250,000 /s
+Pres-Pages-Qtime           14,084 AQL  Abs-Segs-Qtime
+Pres-Pages-Start                       Abs-Segs-Start
+Pres-Pages-End                 86 #    Abs-Segs-End
+Alloc-Seg-Calls                        Ext-Segs-Qtime             266.22 AQL
+------------ Messaging -----------------------------------------------------
+Messages-Sent           1,333,333 /s   Messages-Received
+Msgs-Sent-Qtime            194.86 AQL  Recv-Qtime
+Sent-Bytes             24,777,777 /s   Received-Bytes
+Sent-Cbytes               153,333 K/s  Received-Cbytes
+Returned-Bytes         16,634,666 K/s  Reply-Bytes
+Returned-Cbytes        31,944,444 /s   Reply-Cbytes
+MQCs-Inuse-Qtime           194.75 AQL  MQC-Allocations         1,333,333 /s
+Checkpoints                            MQC-Alloc-Failures
+------------ File ----------------------------------------------------------
+File-Open-Calls                        Info-Calls
+Open-Close-Wait-Time
+------------ Transactions --------------------------------------------------
+Begin-Trans                            Abort-Trans
+------------ Open System Services ------------------------------------------
+OSS-TTY-Wait-Time                      OSS-Dev-Null-Ops
+OSS-TTY-Reads                          OSS-TTY-Writes
+OSS-TTY-Read-Bytes                     OSS-TTY-Write-Bytes
+OSSNS-Wait-Time                        OSSNS-Requests
+OSSNS-Message-Bytes                    OSSNS-Redirects
+OSSNS-DD-Calls
+++
