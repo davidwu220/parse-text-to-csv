@@ -4,8 +4,6 @@ This is a simple node program that takes in a .txt file and parse it and output 
 
 Note that this program is tailored for a specific text format. the sample can be found in the repo as well.
 
----
-
 ## To run it
 
 ```shell
